@@ -87,7 +87,18 @@ nav {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+/* Existing styles... */
 
+/* Lesson Hover Effect */
+.lesson.active {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Nav Link Active */
+.nav-links a.active {
+    color: #007BFF;
+}
 .lesson p {
     font-size: 1.2rem;
     line-height: 1.5;
